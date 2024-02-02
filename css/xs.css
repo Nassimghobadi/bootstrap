@@ -1,0 +1,395 @@
+body{
+    background: var(--Background, #2B2B2B);
+}
+.btn-signup{
+    background: var(--Call-to-Action, #A259FF);
+}
+.btn-signup:hover{
+    background: var(--Call-to-Action, #A259FF);
+}
+.navbar-shadow{
+    box-shadow: 0 20px 16px rgba(255, 255, 255, 0.05);
+}
+.title{
+    font-family: "Work Sans" ,sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+}
+.parag{
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    text-align: justify;
+}
+.banner-img-container{
+    aspect-ratio: 3/2;
+}
+.banner-box{
+    background: #3B3B3B;
+}
+.box-title{
+    font-family: "Work Sans" ,sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.link{
+    height: 60px;
+    background: #A259FF;
+    text-align: center;
+    font-family: "Work Sans" ,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    &:hover{
+        background-color: #8323f6;
+    }
+}
+.first-stat{
+    font-family: "Space Mono", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.second-stat{
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.collection-title{
+    font-family: "Work Sans" , sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.collection-parag{
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.last-item{
+    background: #A259FF;
+    text-align: center;
+    font-family: "Space Mono" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+.creators-title{
+    font-family: "Work Sans" , sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.creators-parag{
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.creator{
+    background: #3B3B3B;
+}
+.creator-img{
+    position: relative;
+}
+.creator-img::before {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: attr(data-row);
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    /* Base (Body) - Space Mono */
+    font-family: "Space Mono", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 20px;
+    background: #2B2B2B;
+}
+.categories{
+    background-color: #3B3B3B;
+}
+.creators-title{
+    /* H4 - Work Sans */
+    font-family: "Work Sans" , sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.category-img1{
+    background-image: url("../images/ca1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    backdrop-filter: contrast(50%) brightness(100%) saturate(100%) sepia(10%) hue-rotate(10deg) grayscale(10%) invert(10%) blur(8px);
+    mix-blend-mode: screen;
+    opacity: 1;
+}
+.category-img2{
+    background-image: url("../images/ca2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    backdrop-filter: contrast(50%) brightness(100%) saturate(100%) sepia(10%) hue-rotate(10deg) grayscale(10%) invert(10%) blur(8px);
+    mix-blend-mode: screen;
+    opacity: 1;
+}
+.category-img3{
+    background-image: url("../images/ca3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    backdrop-filter: contrast(50%) brightness(100%) saturate(100%) sepia(10%) hue-rotate(10deg) grayscale(10%) invert(10%) blur(8px);
+    mix-blend-mode: screen;
+    opacity: 1;
+}
+.category-img4{
+    background-image: url("../images/ca4.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    backdrop-filter: contrast(50%) brightness(100%) saturate(100%) sepia(10%) hue-rotate(10deg) grayscale(10%) invert(10%) blur(8px);
+    mix-blend-mode: screen;
+    opacity: 1;
+}
+.category-img5{
+    background-image: url("../images/ca5.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    backdrop-filter: contrast(50%) brightness(100%) saturate(100%) sepia(10%) hue-rotate(10deg) grayscale(10%) invert(10%) blur(8px);
+    mix-blend-mode: screen;
+    opacity: 1;
+}
+.category-img6{
+    background-image: url("../images/ca6.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    backdrop-filter: contrast(50%) brightness(100%) saturate(100%) sepia(10%) hue-rotate(10deg) grayscale(10%) invert(10%) blur(8px);
+    mix-blend-mode: screen;
+    opacity: 1;
+}
+.category-img7{
+    background-image: url("../images/ca7.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    backdrop-filter: contrast(50%) brightness(100%) saturate(100%) sepia(10%) hue-rotate(10deg) grayscale(10%) invert(10%) blur(8px);
+    mix-blend-mode: screen;
+    opacity: 1;
+}
+.category-img8{
+    background-image: url("../images/ca8.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    backdrop-filter: contrast(50%) brightness(100%) saturate(100%) sepia(10%) hue-rotate(10deg) grayscale(10%) invert(10%) blur(8px);
+    mix-blend-mode: screen;
+    opacity: 1;
+}
+.discover-tile{
+    /* H4 - Work Sans */
+    font-family: "Work Sans" , sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.discover-parag{
+    /* Base(Body) - Work Sans */
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.discover-img-container{
+    aspect-ratio: 3/2;
+}
+.discover-box{
+    background: #3B3B3B;
+}
+.box-title{
+    font-family: "Work Sans" ,sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.discover2-1{
+    color: #858584;
+    /* Caption - Space Mono */
+    font-family: "Space Mono" , sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+.discover2-2{
+    /* Caption - Space Mono */
+    font-family: "Space Mono" , sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+.discover-link{
+    border: 2px solid  #A259FF;
+    display: flex;
+    height: 60px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+}
+.started-box{
+    background-color: #3B3B3B;
+}
+.stated-title{
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+.started-parag{
+    font-family: "Work Sans" , sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 16.8px */
+}
+.stated-main-title{
+    font-family: "Work Sans" , sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize;
+}
+.stated-main-parag{
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.weekly-title{
+    font-family: "Work Sans" , sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.weekly-parag{
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+input{
+    color: var(--Background, #2B2B2B);
+
+    /* Base(Body) - Work Sans */
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.weekly-link{
+    height: 60px;
+    background: #A259FF;
+    text-align: center;
+    font-family: "Work Sans" ,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    &:hover{
+        background-color: #8323f6;
+}
+}
+footer{
+    background-color: #3B3B3B;
+}
+.parag1{
+    color: #CCC;
+    /* Base(Body) - Work Sans */
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.parag2{
+    color: #CCC;
+    /* Base(Body) - Work Sans */
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.footer-tile2{
+    /* H5 - Space Mono */
+    font-family: "Space Mono" , sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+}
+.parag3{
+    color: #CCC;
+    /* Base(Body) - Work Sans */
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.footer-title3{
+    /* H5 - Space Mono */
+    font-family: "Space Mono" , sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+}
+.parag4{
+    color: #CCC;
+    /* Base(Body) - Work Sans */
+    font-family: "Work Sans" , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+.parag5{
+    color: #CCC;
+    /* Caption - Work Sans */
+    font-family: "Work Sans" , sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 13.2px */
+}
+.line-{
+    background-color: #3B3B3B;
+}
